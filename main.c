@@ -3,7 +3,7 @@
 //  hwk3-4
 //
 //  Created by Jason Mansfield on 9/15/12.
-//  Copyright (c) 2012 Jason Mansfield. All rights reserved.
+//  REGIS CS468
 //
 
 #include <stdio.h>
@@ -66,7 +66,6 @@ void referenceFile(char * flink){
 printf("%c",c);
 c=fgetc(pf);
 --sz;
-printf("%ld",sz);
 }
 fclose(pf);
 }
